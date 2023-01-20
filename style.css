@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+
+body {
+    background: #1E1E1E;
+    margin: 0;
+}
+
+.logo {
+    width: 164px;
+    margin: 42px 0px 0px 55px;
+}
+
+#jumpy {
+    width: 524px;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+#jumpy h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 23px;
+}
+
+#formulario {
+    display: grid;
+    grid-auto-flow: column;
+    width: 524px;
+    text-align: left;
+}
+
+#formulario p {
+    margin: 0;
+    margin-top: 20px;
+}
+
+label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+input {
+    width: 524px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 18px 0 18px 13px;
+}
+
+
+input::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    background: #0C70F2;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 18px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    padding: 20px 36px;
+    gap: 8px;
+}
+
+.submit-button:hover {
+    background: #00aaff;
+}
+
+.form-control small {
+    float: right;
+    visibility: hidden;
+    height: 14px;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #E73550;
+    float: right;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+}
+
+.form-control.success small {
+    visibility: hidden;
+}
+
+#success {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F7B0F;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 2vh;
+    display: none;
+}
+
+#erro {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E73550;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 2vh;
+    display: none;
+}
